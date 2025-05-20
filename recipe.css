@@ -1,0 +1,296 @@
+*{
+    padding: 0;
+    margin: 0;  
+    box-sizing: border-box;
+}
+.container {
+    width:100%;
+    height: 100%;
+}
+
+.header {
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.2)),  url("https://cdn.britannica.com/98/235798-050-3C3BA15D/Hamburger-and-french-fries-paper-box.jpg");
+    background-size:cover ;
+    background-repeat: no-repeat;
+    margin-bottom: 8px;
+    color: white;
+    font-weight: lighter;
+    padding: 20px 60px 0 60px;
+}
+
+.nav {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 80px;
+}
+
+.menu{
+    font-size: 35px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.border {
+    border: 1px ridge white;
+    height: 40px;
+    text-align: center;
+    width: 100px;
+    background-color: inherit;
+    outline: none;
+    color: white;
+
+}
+
+#r {
+    font-size: 30px;
+    text-align: center;
+}
+
+.body{
+    margin-top: 40px;
+    margin-bottom: 10px;
+} 
+
+h1 {
+    font-size: 70px;
+}
+
+.p {
+    font-size: 17px;
+}
+
+.sub-header {
+    text-align: center;
+}
+
+h3 {
+    font-size: 40px;
+}
+
+.sub-header>p {
+    font-size: 15px;
+    line-height: 2.0;
+}
+
+.starters {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-content: center;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+
+img {
+    width: 600px;
+    height: 400px;
+}
+
+h2 {
+    font-weight: bold;
+    line-height: 1.2;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.l{
+    font-size: 15px; margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+.money{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-content: center;
+    margin-bottom: 30px;
+    margin-top: 5px;
+}
+
+.section {
+    text-align: center;
+    background-color: rgb(173, 230, 201);
+    padding-top: 40px;
+}
+
+h4 {
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+.section1 {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-content: center;
+    margin-bottom: 15px;
+}
+
+.button {
+    background-color: rgb(173, 230, 201);
+    margin-bottom: 2rem;
+    width: 200px;
+    height: 50px;
+    text-align: left;
+    padding-left: 1rem;
+}
+
+#button {
+    background-color: black;
+    color: white;
+    width: 150px;
+    height: 40px;
+    font-size: 10px;
+    margin-bottom: 5rem;
+    margin-top: 1rem;
+}
+
+footer {
+    background-color: rgb(54, 107, 47);
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    color: white;
+    border-bottom-style: dotted;
+    border-bottom-width: thin;
+    padding: 30px;
+}
+
+h5 {
+    font-size: 30px;
+    margin-top: 25px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    color: white;
+    gap: 20px;
+    padding: 30px;
+    font-size: 15px;
+}
+
+h6 {
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+
+input[type=email] {
+    width: 250px;
+    height: 40px;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    margin-bottom: 8px;
+}
+
+input{
+    background-color: initial;
+    width: 150px;
+    height: 40px;
+    padding: 0 5px;
+}
+
+select {
+    width: 150px;
+    height: 40px;
+    background-color: initial;
+    padding:0 0 0 5px;
+}
+.foot {
+    width: 150px;
+    height: 40px;
+    background-color: olivedrab;
+    color: white;
+    border: none;
+}
+
+div>p {
+    font-size: 15px;
+}
+
+.number{
+    margin-bottom: 10px;
+}
+
+.social {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    gap: 10px;
+}
+
+@media screen and (max-width: 900px) {
+    .header {
+        height: 60vh;
+        padding: 30px 20px 0 20px;
+    }
+    
+    .nav {
+        font-size: 12px;
+        gap: 5px;
+    }
+    .menu {
+        font-size: 25px;
+    }
+
+    .money2{
+        line-height: 0;
+    }
+    .starters{
+        padding: 0 10px;
+    }
+    .main{
+        padding: 0 10px;
+    }
+    .body {
+        margin-top: 10px;
+        flex-direction: column;
+    }
+    h1 {
+        font-size: 40px;
+    }
+    .p {
+        font-size: 15px;
+    }
+    img {
+        width: 100%;
+        height: 50vh;
+    }
+    h2 {
+        font-size: 17px;
+    }
+    .l, .money, h4, h5, h6 {
+        font-size: 15px;
+    }
+
+    .footer-content {
+        /* flex-direction: column; */
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+    
+    input[type=email] {
+        width: 70%;
+    }
+    .foot{
+        width: 50%;
+    }
+}
